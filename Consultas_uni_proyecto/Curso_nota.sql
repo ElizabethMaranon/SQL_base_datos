@@ -7,4 +7,4 @@ FROM
         JOIN
     curso c ON n.nota_curso = c.id_curso
 GROUP BY c.nombre_curso
-ORDER by avg(n.nota) asc;
+ORDER BY Nota ASC;

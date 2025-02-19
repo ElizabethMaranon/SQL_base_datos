@@ -1,0 +1,24 @@
+USE universidad;
+
+CREATE TABLE estudiantes (
+    id_est INT PRIMARY KEY NOT NULL UNIQUE AUTO_INCREMENT,
+    nombre_est VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE profesores (
+    id_profe INT PRIMARY KEY NOT NULL UNIQUE AUTO_INCREMENT,
+    nombre_profe VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE curso (
+    id_curso INT PRIMARY KEY NOT NULL UNIQUE AUTO_INCREMENT,
+    nombre_curso VARCHAR(20) NOT NULL,
+    profe_curso INT NOT NULL
+);
+
+CREATE TABLE notas (
+    id_nota INT PRIMARY KEY NOT NULL UNIQUE AUTO_INCREMENT,
+    nota DEC(2) DEFAULT 0 NOT NULL,
+    nota_curso INT DEFAULT 0 NOT NULL,
+    nota_est INT NOT NULL
+);
