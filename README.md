@@ -4,5 +4,6 @@
 https://github.com/ElizabethMaranon/SQL_base_datos/wiki
 
 ## Proyecto
-Creeción una base de datos SQL para una universidad que administre estudiantes, cursos, profesores y calificaciones.
-Consultas y subconsultas
+Creación de una base de datos SQL para una universidad que administre estudiantes, cursos, profesores y calificaciones.
+Creación de Schema, tablas con su rellenado.
+Consultas y subconsultas de datos.
